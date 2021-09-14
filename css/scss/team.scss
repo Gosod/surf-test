@@ -1,0 +1,46 @@
+.team__container {
+    padding: 6.4375rem 0px 7.8125rem;
+    height: 100%;
+}
+
+.team {
+    height: 100vh;
+    min-height: 40.6875rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.team__member {
+    width: 13.75rem;
+    height: 18.125rem;
+    object-fit: cover;
+    margin: 0;
+}
+
+.team__list {
+    display: flex;
+}
+
+.team__item {
+    margin-right: 1.25rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.team__title { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6875rem;
+    line-height: 2rem;
+    color: #292929;
+    text-align: center;
+}
+
+.team__content {
+    overflow: hidden;
+    transition: height .3s;
+    height: 0;
+}

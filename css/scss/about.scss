@@ -1,0 +1,111 @@
+.about__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    color: #292929;
+    text-transform: uppercase;
+    margin-bottom: 1.0625rem;
+}
+
+.about__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #292929;
+    margin-bottom: 3.0625rem;
+    padding: 0 27%;
+
+    @include phones {
+        padding: 0 6%;
+    }
+}
+
+.about__container {
+    padding: 6.4375rem 0px 7.8125rem;
+    height: 100%;
+}
+
+.about__img {
+    background: #F2F4F5;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    padding: 2rem;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+
+    @include phones {
+        margin-right: 1.25rem;
+        max-width: none;
+    }
+
+    @include tablets {
+        max-width: none;
+    }
+}
+
+.about__text-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6875rem;
+    line-height: 2rem;
+    color: #292929;
+    text-align: center;
+}
+
+.about__text-subtitle P {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.375rem;  
+    color: #292929;
+}
+
+.about {
+    height: 100vh;
+    min-height: 40.6875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__list {
+    display: flex;
+    text-align: center;
+
+    @include phones {
+        flex-direction: column;
+    }
+}
+
+.about__item {
+   flex: 1;
+   margin: 0 3%;
+   
+
+   &:first-child {
+       margin-left: 0;
+   }
+
+   &:last-child {
+    margin-right: 0;
+   }
+
+
+   @include phones {
+       margin: 0;
+       display: flex;
+   }
+}
+
+.about__img-circle {
+    display: flex;
+}
+
+.about__desc {
+    text-align: center;
+}
+

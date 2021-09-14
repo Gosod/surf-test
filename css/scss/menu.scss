@@ -1,0 +1,39 @@
+.menu__item {
+    margin-right: 1.875rem ;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.phone-number {
+    font-size: 1.375rem;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.phone-number__icone {
+    width: 0.75rem;
+    height: 0.8125rem;
+    flex-shrink: 0;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    @include tablets {
+        display: none;
+    }
+}
+
+.menu__link {
+    white-space: nowrap;
+}
+
+.menu {
+  margin: 0 30px;  
+}

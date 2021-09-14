@@ -1,0 +1,16 @@
+.features {
+    display: flex;
+    
+    @include tablets {
+        display: none;
+    }
+}
+
+.features__item {
+    margin-right: 2.375rem;
+    align-items: center;
+}
+
+.features__item:last-child {
+    margin-right: 0;
+}

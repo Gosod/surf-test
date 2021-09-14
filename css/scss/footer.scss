@@ -1,0 +1,20 @@
+.footer {
+    position: absolut;
+    background: #FFF;
+   
+}
+
+.footer__phone-number__icone {
+    fill: #000;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    @include phones {
+        flex-direction: column;
+    }
+}

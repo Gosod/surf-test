@@ -1,0 +1,26 @@
+.socials {
+    display: flex;
+    fill: #999;
+    align-items: center;
+}
+
+.contacts {
+
+    @include phones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.socials__list {
+    margin-right: 5px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.socials__icon {
+    fill: #999;
+}

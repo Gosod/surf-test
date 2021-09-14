@@ -1,0 +1,135 @@
+.simple-slider {
+    display: flex;
+    justify-content: center;
+
+    @include tablets {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.arrows {
+    justify-content: center;
+    display: flex;
+    width: 0.8438rem;
+    height: 1.6875rem;
+}
+
+.slider__img {
+    transform: rotate(28deg); 
+    height: 530px;
+    width: 150px;
+ }
+
+.slider__container {
+    padding: 6.4375rem 0px 7.8125rem;
+    height: 100%;
+}
+
+.slider {
+    height: 100vh;
+    min-height: 40.6875rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.simple-slider__title {
+    margin-bottom: 1.5rem;
+    font-style: Bold;
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
+    text-transform: uppercase;
+}
+
+.simple-slider__desc {
+    display: flex;
+    flex-direction: column;
+    max-width: 374px;
+}
+
+.simple-slider__icon {
+    margin-right: 14.1875rem;
+
+    @include tablets {
+        margin: 0;
+    }
+}
+
+.simple-slider__sign {
+    display: flex;
+    flex-direction: column;
+}
+
+.simple-slider__subtitle {
+    margin-bottom: 2.125rem;
+}
+
+.simple-slider__text {
+    display: flex;
+    flex-direction: row;
+    
+    @include tablets {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+}
+
+.simple-slider__sign {
+    margin-right: 25px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.simple-slider__text-price {
+    font-size: 60px;
+    line-height: 60px; 
+    margin-right: 28px;
+}
+
+.simple-slider__promotion {
+    display: flex;
+    flex-direction: row;
+
+    @include tablets {
+        justify-content: center;
+    }
+}
+
+.simple-slider__theme-solid {
+    font-style: 700;
+    font-size: 18px;
+    line-height: 22px ; 
+}
+
+.parametrs {
+    display: flex;
+    height: 5.6875rem;
+    width: 5.6875rem;
+    flex-direction: column;
+    background: #3A587E;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+
+    @include tablets {
+        display: none;
+    }
+}
+
+.parametrs__icon {
+    margin-bottom: 0.4375rem;
+
+   
+}
+
+.parametrs-text {
+    font-size: 14.01px;
+    line-height: 17px;
+    color: #FFF;
+}

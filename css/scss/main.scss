@@ -1,0 +1,33 @@
+$containerwidth: 1100px;
+$baseFontsize: 18px;
+
+$zfm: 100;
+
+$tablets: 768px;
+$phones: 480px; 
+
+@import 'media.scss';
+
+@import url(./css/normilize.css);
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+@import 'hamburger.scss';
+@import 'hero.scss';
+@import 'layout.scss';
+@import 'about.scss';
+@import 'btn.scss';
+@import 'delivery.scss';
+@import 'feature.scss';
+@import 'features.scss';
+@import 'fixed-menu.scss';
+@import 'form.scss';
+@import 'header.scss';
+@import 'interactiveavatar.scss';
+@import 'radio.scss';
+@import 'revies.scss';
+@import 'menu.scss';
+@import 'map.scss';
+@import 'footer.scss';
+@import 'socials.scss';
+@import 'slider.scss';
+@import 'team.scss';
